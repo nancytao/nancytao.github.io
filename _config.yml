@@ -1,0 +1,29 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://nancytao.com
+title: Nancy Tao
+email: nancytao@gatech.edu
+author: Nancy Tao
+description: > # "Nancy Tao is a computer science student at Georgia Tech interested in artificial intelligence and design."
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: email
+    url: mailto:nancytao@gatech.edu
+  - title: github
+    url: https://github.com/nancytao
+  - title: linkedin
+    url: https://linkedin.com/in/nancytao42
