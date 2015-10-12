@@ -13,10 +13,10 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">  
+            <ul class="nav navbar-nav navbar-right">
             	<li>
                     <a class="page-scroll" href="#about">About</a>
-                </li>            
+                </li>
                 <li>
                     <a class="page-scroll" href="#services">Services</a>
                 </li>
@@ -43,11 +43,17 @@
 						<h3>{{ page.subTitle }}</h3>
 						<hr class="intro-divider">
 						<ul class="list-inline intro-social-buttons">
-							{% for social in site.social %}
 							<li>
-								<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
-							</li>
-							{% endfor %}
+								<a href="mailto:nancytao@gatech.edu" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">email</span></a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/nancytao" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                            </li>
+
+                            <li>
+                                <a href="https://linkedin.com/in/nancytao42" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                            </li>
 						</ul>
 					</div>
 				</div>

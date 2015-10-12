@@ -15,15 +15,3 @@ description: > # "Nancy Tao is a computer science student at Georgia Tech intere
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - title: envelope
-    url: mailto:nancytao@gatech.edu
-  - title: github
-    url: https://github.com/nancytao
-  - title: linkedin
-    url: https://linkedin.com/in/nancytao42
