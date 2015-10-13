@@ -21,6 +21,11 @@ h6 {
     font-weight: 700;
 }
 
+p {
+    font-size: 150%;
+    font-weight: lighter;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
