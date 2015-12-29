@@ -20,6 +20,11 @@ p {
     font-weight: lighter;
 }
 
+ol {
+    font-size: 125%;
+    font-weight: lighter;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
