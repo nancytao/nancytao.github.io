@@ -1,12 +1,9 @@
 <section id="projects">
-<!-- Page Content -->
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
-    <div class="content-section-a">
-
+    <div class="projects-section-a">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
@@ -18,18 +15,12 @@
                     <img class="img-responsive" src="img/projects/{{ post.img }}" alt="">
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
-
     </div>
-    <!-- /.content-section-a -->
+
     {% else %}
-
-    <div class="content-section-b">
-
+    <div class="project-section-b">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
@@ -41,12 +32,8 @@
                   <img class="img-responsive" src="img/projects/{{ post.img }}" alt="">
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
-
     </div>
-    <!-- /.content-section-b -->
-    {% endif %}
+  {% endif %}
 {% endfor %}
 </section>
